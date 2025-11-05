@@ -7,17 +7,17 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: esp 32 wroom
 
-motors: 
+motors: N20 micro metal gear motor 600rpm (Pololu)
 
-h-bridge:
+h-bridge: DRV8833 daul motor driver carrier (Pololu)
 
-sensors:
+sensors: QTR_8RC Reflectance  Sensor (Pololu)
 
-batteries:
+batteries: 2x 18650
 
-wireless communication:
+wireless communication: Wifi (onboard)
 
 distance sensor - motors:
 
