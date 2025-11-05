@@ -1,4 +1,4 @@
 # Voor het programma blink heb je niet echt iets nodig
 
-Je moet er juist voor zorgen dat het gekozen broad op <font colour ="blue"> "DOIT ESP32 DEVKIT V1" </font> staat
-<p style="color:blue">Make this text blue.</p>
+Je moet er juist voor zorgen dat het gekozen broad op "**DOIT ESP32 DEVKIT V1**"  staat
+
