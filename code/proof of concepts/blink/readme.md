@@ -1,4 +1,5 @@
-# Voor het programma blink heb je niet echt iets nodig
+# Voor het programma blink volgende dingen nodig
 
-Je moet er juist voor zorgen dat het gekozen broad op "**DOIT ESP32 DEVKIT V1**"  staat
+- Microcontroller
+- Gekozen broad in ARDUINO IDE op "**DOIT ESP32 DEVKIT V1**" zetten
 
