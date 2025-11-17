@@ -2,12 +2,12 @@
 
 volgende zaken werken samen in dit template project  
 
-* instelbare parameters mbv. SerialCommands 
-  * cyclus tijd
-  * debug on/off
-  * start/stop
-* parameters worden opgeslagen in eeprom geheugen
-* start/stop kan ook geactiveerd worden mbv. een externe interrupt
+* instelbare parameters mbv. SerialCommands (check)
+  * cyclus tijd (check)
+  * debug on/off (check)
+  * start/stop (check)
+* parameters worden opgeslagen in eeprom geheugen (check)
+* start/stop kan ook geactiveerd worden mbv. een externe interrupt (enkel via sCmd voorlopig)
 * draadloze communicatie
 
-Met behulp van de cyclus kan je bvb. een knipperende led programmeren.
+Met behulp van de cyclus kan je bvb. een knipperende led programmeren. (check)
