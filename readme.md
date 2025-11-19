@@ -17,7 +17,7 @@ sensors: QTR_8RC Reflectance  Sensor (Pololu)
 
 batteries: 2x 18650
 
-wireless communication: Wifi (onboard)
+wireless communication: Bluetooth (onboard)
 
 distance sensor - motors:
 
