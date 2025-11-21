@@ -13,9 +13,11 @@ SerialCommand sCmd(SerialBT);
 bool debug = false;
 bool running = false;
 bool blink = false;
-
-
 unsigned long previous;
+
+//Pin's
+int start = 23;     //Start button is connect to pin 23
+int stop = 22;      //Stop button is connect to pin 22
 
 //Param that are save in the EEPROM
 struct param_t
@@ -30,8 +32,8 @@ void setup()
   
   //Commands
   sCmd.addCommand("set", onSet);
-  sCmd.addCommand("start", start);
-  sCmd.addCommand("stop", stop);
+  sCmd.addCommand("start", Start);
+  sCmd.addCommand("stop", Stop);
   sCmd.setDefaultHandler(onUnknownCommand);
 
   //Read form EEPROM
@@ -39,11 +41,22 @@ void setup()
   EEPROM_readAnything(0, params);
   EEPROM.end();
 
-  //Show that de programme is startert
-  SerialBT.println("ready");
+
 
   //PinMode
+    // INPUT
+  pinMode(start, INPUT);
+  pinMode(stop, INPUT);
+
+    // OUTPUT
   pinMode(LED_BUILTIN, OUTPUT);
+
+  //Interrupts
+  attachInterrupt(start,Start,RISING);
+  attachInterrupt(stop,Stop,RISING);
+
+  //Show that de programme is startert
+  SerialBT.println("ready"); 
 }
 
 void loop()
@@ -69,14 +82,14 @@ void loop()
 }
 
 //Start of the car
-void start()
+void Start()
 {
   running = true;
   if (debug) SerialBT.println("The cars is started");
 }
 
 //Stop of the car
-void stop()
+void Stop()
 {
   running = false;
   if (debug) SerialBT.println("The cars is stopt");
