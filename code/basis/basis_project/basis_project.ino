@@ -1,12 +1,13 @@
 #include "SerialCommand.h"
+#include "BluetoothSerial.h"
 #include "EEPROMAnything.h"
 #include "EEPROM.h"
 
-#define SerialPort Serial
 #define Baudrate 115200
 #define EEPROM_SIZE sizeof(param_t)
 
-SerialCommand sCmd(SerialPort);
+BluetoothSerial SerialBT;
+SerialCommand sCmd(SerialBT);
 
 //VAR
 bool debug = false;
@@ -25,7 +26,7 @@ struct param_t
 
 void setup()
 {
-  SerialPort.begin(Baudrate);
+  SerialBT.begin("BrancoDD Auto");
   
   //Commands
   sCmd.addCommand("set", onSet);
@@ -39,7 +40,7 @@ void setup()
   EEPROM.end();
 
   //Show that de programme is startert
-  SerialPort.println("ready");
+  SerialBT.println("ready");
 
   //PinMode
   pinMode(LED_BUILTIN, OUTPUT);
@@ -62,7 +63,7 @@ void loop()
     //Debug the program
     if (debug)
     { 
-      SerialPort.println("Loop running");
+      SerialBT.println("Loop running");
     }
   }
 }
@@ -71,14 +72,14 @@ void loop()
 void start()
 {
   running = true;
-  if (debug) SerialPort.println("The cars is started");
+  if (debug) SerialBT.println("The cars is started");
 }
 
 //Stop of the car
 void stop()
 {
   running = false;
-  if (debug) SerialPort.println("The cars is stopt");
+  if (debug) SerialBT.println("The cars is stopt");
 }
 
 //Set of the parameters
@@ -99,7 +100,7 @@ void onSet()
 //Unknown command handeler
 void onUnknownCommand (char *command)
 {
-  SerialPort.print("Unknown Command: \"");
-  SerialPort.print(command);
-  SerialPort.println("\"");
+  SerialBT.print("Unknown Command: \"");
+  SerialBT.print(command);
+  SerialBT.println("\"");
 }
