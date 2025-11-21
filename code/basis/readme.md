@@ -8,6 +8,6 @@ volgende zaken werken samen in dit template project
   * start/stop (check)
 * parameters worden opgeslagen in eeprom geheugen (check)
 * start/stop kan ook geactiveerd worden mbv. een externe interrupt (enkel via sCmd voorlopig)
-* draadloze communicatie
+* draadloze communicatie (check)
 
 Met behulp van de cyclus kan je bvb. een knipperende led programmeren. (check)
