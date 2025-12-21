@@ -1,6 +1,7 @@
 # LineFollower
 
 ![A description of my image](images/Auto.gif)
+
 (De snelheid is niet de effectieve snelheid)
   
 ## specifications
