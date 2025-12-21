@@ -1,10 +1,6 @@
 # LineFollower
 
-![A description of my image](images/IMG_2700.mov)
-<video width="320" height="240" controls>
-  <source src="images/Auto.gif" type="video/gif">
-</video>
-
+![A description of my image](images/Auto.gif)
   
 ## specifications
 
