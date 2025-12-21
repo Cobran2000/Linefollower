@@ -2,10 +2,8 @@
 
 ![A description of my image](images/Auto.gif)
 
-<small> (De snelheid is niet de effectieve snelheid)
-Dit is normale tekst.
+<small>(De snelheid is niet de effectieve snelheid)<\small>
 
-<small>Dit is kleine tekst.</small>
 
   
 ## specifications
