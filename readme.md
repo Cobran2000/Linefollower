@@ -17,9 +17,9 @@ batteries: 2x 18650
 
 wireless communication: Bluetooth (onboard)
 
-distance sensor - motors:
+distance sensor - motors: 87mm
 
-weight:
+weight: 134g
 
-speed: 
+speed: 0.6 m/s
 
