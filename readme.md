@@ -1,6 +1,10 @@
 # LineFollower
 
 ![A description of my image](images/IMG_2700.mov)
+<video width="320" height="240" controls>
+  <source src="images/IMG_2700.mov" type="video/mov">
+  Your browser does not support the video tag.
+</video>
 
   
 ## specifications
