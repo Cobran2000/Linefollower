@@ -8,6 +8,7 @@ uitleg over het opladen of vervangen van de batterijen
 uitleg over het verbinden van de robot met laptop / smartphone
 
 #### Commando's
+
 debug
 start  
 stop  
