@@ -1,14 +1,14 @@
 # Gebruiksaanwijzing
 
-### opladen / vervangen batterijen
+### Opladen / vervangen batterijen
 uitleg over het opladen of vervangen van de batterijen
 
-### draadloze communicatie
+### Draadloze communicatie
 #### verbinding maken
 uitleg over het verbinden van de robot met laptop / smartphone
 
-#### commando's
-debug [on/off]  
+#### Commando's
+debug
 start  
 stop  
 set cycle [µs]  
@@ -17,14 +17,16 @@ set diff [0..1]
 set kp [0..]  
 set ki [0..]  
 set kd [0..]  
-calibrate black  
-calibrate white  
+calibrate  
 
-### kalibratie
-uitleg kalibratie  
+### Kalibratie
+Zet de maximale tijd voor de sensor uit te lezen op 2000 micros.
+Begint te meten hoe lang het duurt voor dat de condensator van de sensor geen spanning meer geeft.
+Dit word dan gezien als wit en voor zwart word er dan 160 micros bij gezet bij de hoogste waarde die voor wit werd gemeten.
+Dan is de kalibratie klaar.
 
-### settings
+### Settings
 De robot rijdt stabiel met volgende parameters:  
 
-### start/stop button
+### Start/stop button
 uitleg locatie + werking start/stop button
