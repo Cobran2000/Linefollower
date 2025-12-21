@@ -29,4 +29,4 @@ Dan is de kalibratie klaar.
 De robot rijdt stabiel met volgende parameters:  
 
 ### Start/stop button
-uitleg locatie + werking start/stop button
+Start/stop button, is niet aanwezig doordat er geen plaats is op de print was. 
