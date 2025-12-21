@@ -9,7 +9,7 @@ uitleg over het verbinden van de robot met laptop / smartphone
 
 #### Commando's
 
-debug
+debug<br>
 start  
 stop  
 set cycle [µs]  
