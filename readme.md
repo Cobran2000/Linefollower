@@ -2,7 +2,7 @@
 
 ![A description of my image](images/Auto.gif)
 
-{ font-size: 0.8em; }(De snelheid is niet de effectieve snelheid)
+{ font-size: 0.8em;}(De snelheid is niet de effectieve snelheid)
 
 
   
