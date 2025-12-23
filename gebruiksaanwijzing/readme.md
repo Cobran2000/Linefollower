@@ -5,7 +5,7 @@ Batterijen kunnen op geladen worden in elke oplader voor 18650 batterijen.
 Ik heb hiervoor een oude vipe gebruik maar je kunt ook de lader van bevoorbeeld een scheermachine gebruiken.
 
 ### Draadloze communicatie
-#### verbinding maken
+#### Verbinding maken
 Zorg dat de microcontroller spanning krijgt
 Ga gaan kijken naar in de bluetooth van je pc en zoek de naam die in het programma geven is (BrancoDD Auto).
 Als het bluetooth appartaat verbonden is.
