@@ -14,3 +14,4 @@
 |9|Jumper kabes M-F|Voor Verbedingen van en naar de basis van de auto|recup|/|+-10|/|
 |10|Jumper kabes F-F|Voor Verbedingen van microcontroler rechstreeks naar de componenten|recup|/|+-10|/|
 |11|Lood|Verzwaren van de auto boven de wielen|recup|/|25g|/|
+|TOTAAL| | | | | |€ 55,07|
