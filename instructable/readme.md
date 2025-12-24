@@ -10,9 +10,9 @@ https://dl.espressif.com/dl/package_esp32_index.json,https://raw.githubuserconte
 Upload het programma naar de micocontroller (code/finaal/Eind_code/Eind_code_sensor_uitlezen_optimaal.ino).
 ### Stap 4
 Maak de elektrische verbedingen zoals gaan gegeven op het elektrischschema (technische tekeningen/elektronisch/Elektrische schema.pdf).
-Voor rechstreakse verbinden gebruik F-F jumpers tussen de microcontroller en de componenten (uitgezonderd de motoren).
-Voor de motor gebruik M-F met de male kan gesoldeer op de aansluiting van de motor.
-Voor de andere aansluiting gebruik M-F met de male kan op de basis plaat gesoldeerd (zo maak je verbedingen die naar meerdere plaatsen moeten).
+Voor rechstreakse verbinden gebruik F2F jumpers tussen de microcontroller en de componenten (uitgezonderd de motoren).
+Voor de motor gebruik M2F met de male kan gesoldeer op de aansluiting van de motor.
+Voor de andere aansluiting gebruik M2F met de male kan op de basis plaat gesoldeerd (zo maak je verbedingen die naar meerdere plaatsen moeten).
 ### Stap 5
 Lijm de wielen op de motors
 ### Stap 6
