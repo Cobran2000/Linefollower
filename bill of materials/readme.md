@@ -11,7 +11,7 @@
 |6|Otronic DC12V N20 Micro Metal Gear Motor Pololu 600rpm 1:50|Motoren|Nieuw|€ 8,00|2|€ 16,00|
 |7|Otronic Experimenteer Prototyping Printplaat 7x9cm groen|Basis van de auto|Nieuw|€ 1,40|1|€ 1,40|
 |8|Pololu Wheel for Micro Servo Splines (20T, 4.8mm) - 60×8mm, Black|Wieltje van de auto|Nieuw|€ 6,00|1|€ 6,00|
-|9|Jumper kabes M-F|Voor Verbedingen van en naar de basis van de auto|recup|/|+-10|/|
-|10|Jumper kabes F-F|Voor Verbedingen van microcontroler rechstreeks naar de componenten|recup|/|+-10|/|
+|9|Jumper kabes M2F|Voor Verbedingen van en naar de basis van de auto|recup|/|+-10|/|
+|10|Jumper kabes F2F|Voor Verbedingen van microcontroler rechstreeks naar de componenten|recup|/|+-10|/|
 |11|Lood|Verzwaren van de auto boven de wielen|recup|/|25g|/|
 |TOTAAL| | | | | |€ 55,07|
